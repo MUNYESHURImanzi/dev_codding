@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+.background{
+    background-image: url("./brigg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+.background img{
+    margin-left: 60%;
+    position: fixed;
+    top: 30%;
+    width: 400px;
+    height: 80%;
+    margin-right: 10%;
+
+}
+.active{
+  text-decoration: underline;
+  border-color: #4a88d1;
+}
+
+
+
+
+.navbar a:hover{
+  border-bottom: 3px solid#32ff65;
+}
+.navbar a.active{
+  border-bottom: 3px solid #4ec516;
+}
+nav{
+   /* float: inline-end; */
+    
+ padding-left: 10%;
+padding-top: 5%;
+}
+.navbar{
+  margin-top: -30px;
+  float: right;
+  margin-right: 350px;
+}
+h1{
+   
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  
+  
+}
+p{
+  line-height: -1px;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #ffffff;
+}
+button{
+  color: #ffffff;
+  border-radius: 25px;
+  background: none;
+  
+  border-color: #ffffff;
+  
+
+}
+b{
+  line-height: 2px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 1024px)
+  
+{
+.navbar {
+  margin-top: -30px;
+  float: left;
+  margin-right: 10%;
+  margin-left: 10%;
+} 
+
+.background img{
+    margin-left: 60%;
+    position: fixed;
+    top: 30%;
+    width: 400px;
+    height: 80%;
+    margin-right: 10%;
+}
+h1{
+   display: none;
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  
+  
+}
+
+}
